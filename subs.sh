@@ -5,6 +5,7 @@
 # URL format: wss://<Network>.infura.io/ws/v3/<Project ID>
 # Project ID: 51bcdbf8373f4cd58101860564fa0762 (lattice-dynamic-credit)
 # Network: mainnet
+# e.g: wscat -c wss://rinkeby.infura.io/ws/v3/51bcdbf8373f4cd58101860564fa0762
 
 #NET="mainnet"
 NET="rinkeby"
@@ -33,5 +34,4 @@ logs() {
         -x "${PAYLOAD}"
 }
 
-pending()
-
+new_heads
